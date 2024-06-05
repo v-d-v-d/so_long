@@ -1,0 +1,6 @@
+.vscode
+so_long
+so_long.o
+**/*.o
+so_long_tester
+*.o
