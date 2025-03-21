@@ -29,6 +29,7 @@ all: $(NAME)
 # Règles pour créer l'exécutable
 $(NAME): $(OBJ)
 	$(MAKE) -C libft
+	$(MAKE) -C minilibx-linux
 	$(CC) $(CFLAGS) $(OBJ) libft/libft.a minilibx-linux/libmlx_Linux.a -lXext -lX11 -lm -lz -o $(NAME)
 
 # Règle clean
